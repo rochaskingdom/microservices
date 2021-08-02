@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Worker {
+public class WorkerRequest {
 
     private Long id;
     private String name;
