@@ -1,23 +1,18 @@
-package com.payroll.api.controller.response;
+package com.payroll.api.model.request;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class PaymentResponse {
+public class Worker {
 
+    private Long id;
     private String name;
     private Double dailyIncome;
-    private Integer days;
 
-    public double getTotal() {
-        return this.days * this.dailyIncome;
-    }
 }

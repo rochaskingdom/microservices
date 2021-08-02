@@ -1,6 +1,6 @@
 package com.payroll.api.controller;
 
-import com.payroll.api.controller.response.PaymentResponse;
+import com.payroll.api.model.response.PaymentResponse;
 import com.payroll.api.service.PaymentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
