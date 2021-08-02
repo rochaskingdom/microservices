@@ -4,3 +4,7 @@ spring:
 
 server:
   port: 8101
+
+worker:
+  ribbon:
+    listOfServers: localhost:8080, localhost:8081
